@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+  background-color: #f0f8ff;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 20px;
+ 
+  
+}
+.review{
+  margin: auto;
+  width: 400px;
+  height: 615px;
+  margin-top: 65px;  
+  text-align: center;
+  box-shadow: 6px 2px 7px grey;
+   background: white;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  
+}
+.underline{
+  background: #cde0cd;
+  width: 78px;
+  height: 5px;
+  border-radius: 3px;
+  margin: 0 45%;
+  
+}
+#person-img{
+  width: 210px;
+  height: 210px;
+  border-radius: 60%;
+  box-shadow: 17px -2px 7px #cde0cd;
+  margin-top: 40px;
+}
+
+.aspas{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 98px 23px;
+}
+
+#author{
+  font-size: 30px;
+  margin-top: 12px;
+}
+#job{
+  color: #7ab4ad;
+  font-size: 19px;
+}
+#info{
+  font-size: 14px;
+  width: 70%;
+  margin: 12px auto;
+  
+}
+button{
+  border-radius: 5px; 
+  width: 10%;
+  height: 32px;
+  cursor: pointer;
+ margin: 8px;
+  color: #7ab4ad;
+  font-size: 12px;
+  border: none;
+  background: white;
+   
+}
+
+.random-btn{
+  width: 25%;
+  border: 2px solid #7ab4ad;
+  box-shadow: 8px 4px 9px grey;
+
+  
+}
+
+span{
+  font-size: 32px;
+  border: none;
+  
+  
+}
+
+button:hover{
+  background: #f5f5f5;
+}
+
+.random-btn{
+  display: none;
+ }
+
+
+@media screen and (max-width: 600px){
+  
+
+  h2{
+    font-size: 30px;
+    margin-top: 19px;
+  }
+
+  .review{
+    padding: 5px;
+    width: 290px;
+    height: 490px;
+    margin: 14px auto;
+  }
+  #person-img{
+    width: 180px;
+    height: 180px;
+    margin-top: 18px;
+  }
+
+  .underline{
+    width: 48px;
+    height: 3px;
+    margin-bottom: 9px;
+}
+
+#info{
+  font-size: 12px;
+  margin: 3px auto;
+}
+#author{
+  font-size: 25px;
+  margin-top: 5px;
+
+}
+#job{
+  color: #7ab4ad;
+  font-size: 17px;
+}
+
+.random-btn{
+ display: none;
+}
+
+
+}
+
